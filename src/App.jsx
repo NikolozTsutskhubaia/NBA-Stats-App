@@ -1,22 +1,14 @@
-
-
-
-
+import Navbar from "./components/Navbar";
 
 function App() {
-
   return (
     <>
-        <header>
-        </header>
-        <nav>
-        </nav>
-        <main>
-        </main>
-        <footer>
-        </footer>
+      <header></header>
+      <Navbar />
+      <main></main>
+      <footer></footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
