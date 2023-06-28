@@ -4,6 +4,50 @@
   box-sizing: border-box;
 }
 
+main{
+  font-family: sans-serif;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: gray;
+  font-size: 1rem;
+
+}
+
+.table_container{
+  margin-top: 3.5rem;
+  height: 800px;
+  overflow: auto;
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px gray;
+  text-align: left;
+}
+
+table{
+
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px gray;
+  text-align: left;
+
+}
+
+thead{
+  box-shadow: 0 5px 10px gray;
+}
+
+th{
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing:  0.1rem;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+td{
+  padding: 1rem 2rem;
+}
+
+
 .nav_bar {
   display: flex;
   justify-content: center;
