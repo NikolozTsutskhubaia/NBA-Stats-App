@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export const PlayersBySeason = async () => {
-        let res = await axios.get("https://nba-stats-db.herokuapp.com/api/playerdata/season/2023").then(async (response) => {return response.data.results})
+export const PlayersBySeason = async (url) => {
+        let res = await axios.get(url).then(async (response) => {return response.data})
     return(res) ;
 
 }

@@ -1,53 +1,36 @@
 import Navbar from "./components/Navbar";
-import {PlayersBySeason} from "./services/PlayersBySeason.service.jsx";
 import {useEffect, useState} from "react";
-import classes from "./modules/App.module.css";
+import {NbaLatestNewsService} from "./services/NbaLatestNews.service.jsx";
 
 function App() {
 
-    const [PlayersBySeasonData, setPlayersBySeasonData] = useState([]);
+    const[newsData, setNewsData] = useState([])
 
-    useEffect( () => {
+    useEffect(()=>{
         const fetchData = async () => {
-            let response  = await PlayersBySeason();
-            setPlayersBySeasonData(response);
+            let response  = await NbaLatestNewsService();
+            setNewsData(response);
+            console.log(response)
         }
-
-        fetchData();
+        console.log(newsData)
+        fetchData()
     },[])
-  return (
-    <>
-      <header></header>
-      <Navbar />
-      <main>
-          <div className={classes.table_container}>
-          <table>
-              <thead>
-              <tr>
-                  <th>NAME</th>
-                  <th>AGE</th>
-                  <th>GAMES</th>
-                  <th>FG</th>
-                  <th>FG%</th>
-              </tr>
-              </thead>
-              <tbody>
-              {PlayersBySeasonData.map(player =>
-                  <tr key={player.id}>
-                      <td>{player.player_name}</td>
-                      <td>{player.age}</td>
-                      <td>{player.games}</td>
-                      <td>{player.field_goals}/{player.field_attempts}</td>
-                      <td>{player.field_percent}%</td>
-                  </tr>
-              )}
-              </tbody>
-          </table>
-          </div>
-      </main>
-      <footer></footer>
-    </>
-  );
+
+
+    return(
+        <>
+            <Navbar/>
+            <main>
+                {
+                    newsData.map(news =>
+                        <div key={news.title}><a href={news.url}>{news.title} / source:{news.source}</a></div>
+                )
+                }
+            </main>
+            <footer>
+            </footer>
+        </>
+    )
 }
 
 export default App;
