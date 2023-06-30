@@ -1,4 +1,4 @@
-import React from "react";
+
 import classes from "../modules/Footer.module.css";
 
 function Footer() {
@@ -63,49 +63,49 @@ function Footer() {
           <div className={classes.footer_section_2_icons}>
             <a href="https://www.facebook.com/nba/">
               <img
-                src="src/assets/fb.svg"
+                src="../images/fb.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
             </a>
             <a href="https://www.instagram.com/nba/">
               <img
-                src="src/assets/instagram.svg"
+                src="../images/instagram.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
             </a>
             <a href="https://www.snapchat.com/add/nba">
               <img
-                src="src/assets/snapchat.svg"
+                src="../images/snapchat.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
             </a>
             <a href="https://www.tiktok.com/@nba?lang=en">
               <img
-                src="src/assets/tiktok.svg"
+                src="../images/tiktok.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
             </a>
             <a href="https://twitter.com/NBA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
               <img
-                src="src/assets/twitter.svg"
+                src="../images/twitter.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
             </a>
             <a href="https://www.youtube.com/@NBA">
               <img
-                src="src/assets/youtube.svg"
+                src="../images/youtube.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
             </a>
             <a href="https://www.twitch.tv/nba">
               <img
-                src="src/assets/twitch.svg"
+                src="../images/twitch.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />

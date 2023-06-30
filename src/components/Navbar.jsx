@@ -7,7 +7,7 @@ function Navbar() {
       <div className={classes.nav_bar}>
         <Link to={"/"}>
           <img
-            src="src/assets/nba-seeklogo.com.svg"
+            src="../images/nba-seeklogo.com.svg"
             alt="Nba Logo"
             className={classes.nba_logo}
           />

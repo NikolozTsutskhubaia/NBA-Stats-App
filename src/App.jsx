@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { NbaLatestNewsService } from "./services/NbaLatestNews.service.jsx";
 import ImageSlider from "./components/ImageSlider";
 import Footer from "./components/Footer";
-import DUMMY_NEWS from "./DUMMY_NEWS.json";
+
 
 function App() {
   const [newsData, setNewsData] = useState([]);
