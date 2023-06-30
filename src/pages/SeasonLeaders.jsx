@@ -44,6 +44,7 @@ const SeasonLeaders = () => {
                 onChange={(e) => {
                   setCurrentSeason(e.target.value);
                 }}
+                className={classes.select_button}
               >
                 <option value="2023">2023</option>
                 <option value="2022">2022</option>

@@ -19,6 +19,10 @@ main {
   margin: 0 auto;
 }
 
+.mt_500 {
+  margin-top: 500px;
+}
+
 /* #################################################################################*/
 /* NAVBAR */
 
@@ -31,6 +35,7 @@ main {
   align-items: center;
   background-color: #6d6a6a;
   height: 60px;
+  z-index: 9999;
 }
 
 .nba_logo {
@@ -65,19 +70,26 @@ main {
 /* #################################################################################*/
 /* NEWS SECTION */
 
-.nba_news_img {
+body {
+  background-color: #f8fafc;
+}
+
+.main_slide {
+  width: 800px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+/* .nba_news_img {
   position: fixed;
   left: 1000px;
   top: 95px;
   width: 300px;
   height: 150px;
   border-radius: 5px;
-}
+} */
 
-.feed {
-  padding-top: 80px;
-}
-
+/* 
 .nba_news_img_2 {
   position: fixed;
   left: 1000px;
@@ -85,6 +97,10 @@ main {
   width: 300px;
   height: 150px;
   border-radius: 5px;
+} */
+
+.feed {
+  padding-top: 80px;
 }
 
 .news {
@@ -180,6 +196,13 @@ td {
   padding: 20px;
 }
 
+.select_button {
+  width: 100px;
+  height: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
 .player_stats {
   display: flex;
   justify-content: center;
@@ -215,7 +238,7 @@ td {
   padding: 100px 0 100px 100px;
   margin-bottom: 200px;
   background-color: #fff;
-  border-radius: 15px;
+  border-radius: px;
 }
 
 .teams_one {
@@ -245,6 +268,54 @@ td {
   align-items: center;
 }
 
+.teams_div a {
+  text-decoration: none;
+  color: #6d6a6a;
+}
+
 .team_logo {
   width: 50px;
+}
+
+/* #################################################################################3 */
+/* FOOTER SECTION */
+
+footer {
+  background-color: #6d6a6a;
+  height: 400px;
+}
+
+.footer_section {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  padding-top: 50px;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.footer_section b {
+  font-size: 14px;
+}
+
+.footer_section li {
+  list-style: none;
+  margin-top: 20px;
+}
+
+footer hr {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.footer_section_2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;}
+
+.footer_section_2 li {
+  list-style: none;
 }

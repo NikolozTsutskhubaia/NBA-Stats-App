@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import SeasonLeaders from "./pages/SeasonLeaders.jsx";
 import Players from "./pages/Players.jsx";
 import Teams from "./pages/Teams.jsx";
+import Test from "./pages/Test.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/teams",
     element: <Teams />,
+  },
+  {
+    path: "/test",
+    element: <Test />,
   },
 ]);
 
