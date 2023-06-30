@@ -14,50 +14,17 @@ main {
   font-size: 1rem;
 }
 
-.leaders_main {
-  padding-top: 150px;
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 
-.table_container {
-  /* margin-top: 3.5rem;
-  height: 400px;
-  overflow: auto;
-  border-collapse: collapse;
-  text-align: left; */
-  display: flex;
-  justify-content: center;
-  padding-top: 8rem;
-}
-
-table {
-  border-collapse: collapse;
-  box-shadow: 0 5px 10px gray;
-  text-align: left;
-}
-
-thead {
-  box-shadow: 0 5px 10px gray;
-}
-
-th {
-  padding: 1rem 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-size: 0.7rem;
-  font-weight: 900;
-}
-
-td {
-  padding: 1rem 2rem;
-}
+/* #################################################################################*/
+/* NAVBAR */
 
 .nav_bar {
   position: fixed;
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -95,22 +62,83 @@ td {
   transition: 0.2s all ease-in;
 }
 
-.player_stats {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  background-color: #fff;
+/* #################################################################################*/
+/* NEWS SECTION */
+
+.nba_news_img {
+  position: fixed;
+  left: 1000px;
+  top: 95px;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
 }
 
-.year_selector {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+.feed {
+  padding-top: 80px;
 }
 
-.leaders_h1 {
-  color: #0268d6;
+.nba_news_img_2 {
+  position: fixed;
+  left: 1000px;
+  top: 270px;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.news {
+  width: 800px;
+  height: 100px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.news_text {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.news_text a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+/* #################################################################################3 */
+/* PLAYERS SECTION */
+
+.table_container {
+  /* margin-top: 3.5rem;
+  height: 400px;
+  overflow: auto;
+  border-collapse: collapse;
+  text-align: left; */
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+}
+
+table {
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px gray;
+  text-align: left;
+}
+
+thead {
+  box-shadow: 0 5px 10px gray;
+}
+
+th {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+td {
+  padding: 1rem 2rem;
 }
 
 .page_buttons {
@@ -133,50 +161,35 @@ td {
   transition: 0.2s all ease-out;
 }
 
-.news {
-  width: 800px;
-  height: 100px;
-  background-color: #ffffff;
-  margin-bottom: 20px;
-}
+/* #################################################################################3 */
+/* LEADERS SECTION */
 
-.news_text {
-  padding-top: 30px;
-  padding-left: 30px;
-}
-
-.news_text a {
-  text-decoration: none;
-  color: #000;
-  font-weight: 700;
-}
-
-.nba_news_img {
-  position: fixed;
-  left: 1000px;
-  top: 95px;
-  width: 300px;
-  height: 150px;
-  border-radius: 5px;
-}
-
-.nba_news_img_2 {
-  position: fixed;
-  left: 1000px;
-  top: 270px;
-  width: 300px;
-  height: 150px;
-  border-radius: 5px;
-}
-
-.feed {
-  padding-top: 80px;
+.leaders_main {
+  padding-top: 150px;
 }
 
 .leaders_section {
   background-color: #fff;
   padding: 50px 200px;
   border-radius: 20px;
+}
+
+.year_selector {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.player_stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: #fff;
+}
+
+.leaders_h1 {
+  color: #0268d6;
 }
 
 .leaders_h1 {
@@ -191,18 +204,31 @@ td {
   display: flex;
   justify-content: space-between;
 }
+/* #################################################################################3 */
+/* TEAM SECTIONS */
 
 .teams_section {
   width: 1000px;
+  height: 100%;
   margin: 0 auto;
-  padding-top: 150px;
+  margin-top: 150px;
+  padding: 100px 0 100px 100px;
+  margin-bottom: 200px;
   background-color: #fff;
+  border-radius: 15px;
 }
 
-.teams {
+.teams_one {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 50px;
+}
+
+.teams_two {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
 }
 
 .teams ul {
@@ -215,4 +241,10 @@ td {
 
 .teams_div li {
   padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.team_logo {
+  width: 50px;
 }

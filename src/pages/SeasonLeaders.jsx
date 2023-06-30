@@ -36,8 +36,8 @@ const SeasonLeaders = () => {
   return (
     <>
       <Navbar />
-      <main className={classes.leaders_main}>
-        <div className={classes.container}>
+      <main className={classes.container}>
+        <div className={classes.leaders_main}>
           <div className={classes.leaders_section}>
             <div className={classes.year_selector}>
               <select

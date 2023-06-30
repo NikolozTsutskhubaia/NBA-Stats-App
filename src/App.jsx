@@ -21,7 +21,7 @@ function App() {
       <Navbar />
       <main className={classes.news_section}>
         <div className={classes.container}>
-          <img
+          {/* <img
             src="src/assets/nba_news.jpg"
             alt="nba news photo"
             className={classes.nba_news_img}
@@ -30,7 +30,7 @@ function App() {
             src="src/assets/nba_news_2.jpg"
             alt="nba news photo"
             className={classes.nba_news_img_2}
-          />
+          /> */}
           <div className={classes.feed}>
             <h1 className={classes.news_h1}>LATEST</h1>
             {newsData.map((news) => (
