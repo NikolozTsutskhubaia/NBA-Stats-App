@@ -24,7 +24,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/nets.svg"
+                    src="./nets.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
