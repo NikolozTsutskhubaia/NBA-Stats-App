@@ -1,9 +1,7 @@
-
-
 .table_container {
   height: 92%;
   position: relative;
-  overflow: auto ;
+  overflow: auto;
   width: fit-content;
   animation-name: transitionIn;
   animation-duration: 1s;
@@ -15,7 +13,7 @@ table {
   text-align: left;
 }
 
-.table_headers{
+.table_headers {
   display: flex;
   justify-content: space-between;
   box-shadow: 0 5px 10px gray;
@@ -28,7 +26,7 @@ table {
   animation-duration: 1s;
 }
 
-.tables_container{
+.tables_container {
   margin-top: 100px;
   width: fit-content;
   height: 70vh;
@@ -58,6 +56,7 @@ td {
   justify-content: center;
   align-items: center;
   gap: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -67,7 +66,7 @@ td {
   width: 100px;
   height: 50px;
   cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   border-radius: 15px;
   border-width: 1px;
 }
@@ -87,5 +86,17 @@ td {
   to {
     opacity: 1;
     transform: rotateX(0);
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .table_container {
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .table_container {
+    width: 400px;
   }
 }

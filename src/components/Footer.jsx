@@ -36,8 +36,11 @@ function Footer() {
         <div className={classes.footer_section_2}>
           <div className={classes.footer_section_2_text}>
             <ul>
-              <span>© 2023 NBA Media Ventures, LLC. All rights reserved.</span>
-              <li></li>
+              <li>
+                <span>
+                  © 2023 NBA Media Ventures, LLC. All rights reserved.
+                </span>
+              </li>
               <li>
                 Privacy Policy | Terms of Use | Accessibility and Closed
                 Captions | Customer Support | Manage Cookies

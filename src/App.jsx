@@ -9,18 +9,15 @@ import DUMMY_NEWS from "./DUMMY_NEWS.json";
 function App() {
   const [newsData, setNewsData] = useState([]);
 
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     let response = await NbaLatestNewsService();
-  //     setNewsData(response);
-  //     console.log(response);
-  //   };
-  //   console.log(newsData);
-  //   fetchData();
-  // }, []);
-    useEffect(()=>{
-        setNewsData(DUMMY_NEWS)
-    },[])
+  useEffect(() => {
+    const fetchData = async () => {
+      let response = await NbaLatestNewsService();
+      setNewsData(response);
+      console.log(response);
+    };
+    console.log(newsData);
+    fetchData();
+  }, []);
 
   return (
     <>

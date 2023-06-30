@@ -1,3 +1,10 @@
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
 
 footer {
   background-color: #6d6a6a;
@@ -10,7 +17,7 @@ footer {
   gap: 200px;
   padding-top: 50px;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer_section b {
@@ -33,7 +40,7 @@ footer hr {
   justify-content: space-evenly;
   padding-top: 25px;
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .footer_section_2_text li {
@@ -61,4 +68,53 @@ footer hr {
 .social_media_icon {
   width: 25px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1280px) {
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  footer {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer_section {
+    width: 100%;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10% 10% 0 20%;
+  }
+
+  .footer_section_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .footer_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10% 10% 0 10%;
+  }
+
+  .footer_section_2 span {
+    text-align: center;
+  }
+
+  .footer_section_2 li {
+    text-align: center;
+  }
 }

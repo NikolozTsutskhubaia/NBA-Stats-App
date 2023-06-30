@@ -49,22 +49,22 @@ function Players() {
               <span>FG</span>
               <span>FG%</span>
             </div>
-          <div className={classes.table_container}>
-            <table>
-              <tbody>
-                {PlayersBySeasonData.map((player) => (
-                  <tr key={player.id}>
-                    <td>{player.player_name}</td>
-                    <td>{player.age}</td>
-                    <td>{player.games}</td>
-                    <td>
-                      {player.field_goals}/{player.field_attempts}
-                    </td>
-                    <td>{player.field_percent}%</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+            <div className={classes.table_container}>
+              <table>
+                <tbody>
+                  {PlayersBySeasonData.map((player) => (
+                    <tr key={player.id}>
+                      <td>{player.player_name}</td>
+                      <td>{player.age}</td>
+                      <td>{player.games}</td>
+                      <td>
+                        {player.field_goals}/{player.field_attempts}
+                      </td>
+                      <td>{player.field_percent}%</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
           <div className={classes.page_buttons}>

@@ -10,7 +10,19 @@ import nba_news_3 from "../assets/nba_news_3.jpg";
 function ImageSlider() {
   return (
     <>
-      <Carousel className={classes.main_slide}>
+      <Carousel className={`${classes.main_slide} ${classes.desktop}`}>
+        <div>
+          <img src={nba_news} className={classes.slider_img} />
+        </div>
+        <div>
+          <img src={nba_news_2} className={classes.slider_img} />
+        </div>
+        <div>
+          <img src={nba_news_3} className={classes.slider_img} />
+        </div>
+      </Carousel>
+
+      <Carousel className={`${classes.main_slide} ${classes.mobile}`}>
         <div>
           <img src={nba_news} className={classes.slider_img} />
         </div>

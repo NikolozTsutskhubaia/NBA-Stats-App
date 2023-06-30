@@ -22,9 +22,6 @@ function Navbar() {
           <Link to={"/teams"}>
             <li>Teams</li>
           </Link>
-          <Link to={"/test"}>
-            <li>Test</li>
-          </Link>
         </ul>
       </div>
     </nav>
