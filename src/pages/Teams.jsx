@@ -16,7 +16,7 @@ function Teams() {
               <ul>
                 <li>
                   <img
-                    src="../images/celtics.svg"
+                    src="../assets/celtics.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -32,7 +32,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/knicks.svg"
+                    src="../assets/knicks.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -40,7 +40,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/76ers.svg"
+                    src="../assets/76ers.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -48,7 +48,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/raptors.svg"
+                    src="../assets/raptors.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -61,7 +61,7 @@ function Teams() {
               <ul>
                 <li>
                   <img
-                    src="../images/bulls.svg"
+                    src="../assets/bulls.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -69,7 +69,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/cavs.svg"
+                    src="../assets/cavs.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -79,7 +79,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/pistons.svg"
+                    src="../assets/pistons.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -87,7 +87,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/pacers.svg"
+                    src="../assets/pacers.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -95,7 +95,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/bucks.svg"
+                    src="../assets/bucks.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -108,7 +108,7 @@ function Teams() {
               <ul>
                 <li>
                   <img
-                    src="../images/hawks.svg"
+                    src="../assets/hawks.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -116,7 +116,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/hornets.svg"
+                    src="../assets/hornets.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -124,7 +124,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/heat.svg"
+                    src="../assets/heat.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -132,7 +132,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/magic.svg"
+                    src="../assets/magic.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -140,7 +140,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/wizards.svg"
+                    src="../assets/wizards.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -155,7 +155,7 @@ function Teams() {
               <ul>
                 <li>
                   <img
-                    src="../images/nuggets.svg"
+                    src="../assets/nuggets.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -163,7 +163,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/timberwolves.svg"
+                    src="../assets/timberwolves.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -173,7 +173,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/thunder.svg"
+                    src="../assets/thunder.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -183,7 +183,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/blazers.svg"
+                    src="../assets/blazers.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -193,7 +193,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/jazz.svg"
+                    src="../assets/jazz.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -206,7 +206,7 @@ function Teams() {
               <ul>
                 <li>
                   <img
-                    src="../images/warriors.svg"
+                    src="../assets/warriors.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -216,7 +216,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/clippers.svg"
+                    src="../assets/clippers.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -224,7 +224,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/lakers.svg"
+                    src="../assets/lakers.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -232,7 +232,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/suns.svg"
+                    src="../assets/suns.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -240,7 +240,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/kings.svg"
+                    src="../assets/kings.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -253,7 +253,7 @@ function Teams() {
               <ul>
                 <li>
                   <img
-                    src="../images/mavs.svg"
+                    src="../assets/mavs.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -261,7 +261,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/rockets.svg"
+                    src="../assets/rockets.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -269,7 +269,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/grizzlies.svg"
+                    src="../assets/grizzlies.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -277,7 +277,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/pelicans.svg"
+                    src="../assets/pelicans.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -287,7 +287,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/spurs.svg"
+                    src="../assets/spurs.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -306,7 +306,7 @@ function Teams() {
               <ul>
                 <li>
                   <img
-                    src="../images/celtics.svg"
+                    src="../assets/celtics.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -314,7 +314,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/nets.svg"
+                    src="../assets/nets.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -322,7 +322,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/knicks.svg"
+                    src="../assets/knicks.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -330,7 +330,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/76ers.svg"
+                    src="../assets/76ers.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -338,7 +338,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/raptors.svg"
+                    src="../assets/raptors.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -351,7 +351,7 @@ function Teams() {
               <ul>
                 <li>
                   <img
-                    src="../images/bulls.svg"
+                    src="../assets/bulls.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -359,7 +359,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/cavs.svg"
+                    src="../assets/cavs.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -369,7 +369,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/pistons.svg"
+                    src="../assets/pistons.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -377,7 +377,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/pacers.svg"
+                    src="../assets/pacers.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -385,7 +385,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/bucks.svg"
+                    src="../assets/bucks.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -398,7 +398,7 @@ function Teams() {
               <ul>
                 <li>
                   <img
-                    src="../images/hawks.svg"
+                    src="../assets/hawks.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -406,7 +406,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/hornets.svg"
+                    src="../assets/hornets.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -414,7 +414,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/heat.svg"
+                    src="../assets/heat.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -422,7 +422,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/magic.svg"
+                    src="../assets/magic.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -430,7 +430,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/wizards.svg"
+                    src="../assets/wizards.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -443,7 +443,7 @@ function Teams() {
               <ul>
                 <li>
                   <img
-                    src="../images/nuggets.svg"
+                    src="../assets/nuggets.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -451,7 +451,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/timberwolves.svg"
+                    src="../assets/timberwolves.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -461,7 +461,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/thunder.svg"
+                    src="../assets/thunder.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -471,7 +471,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/blazers.svg"
+                    src="../assets/blazers.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -481,7 +481,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/jazz.svg"
+                    src="../assets/jazz.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -494,7 +494,7 @@ function Teams() {
               <ul>
                 <li>
                   <img
-                    src="../images/warriors.svg"
+                    src="../assets/warriors.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -504,7 +504,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/clippers.svg"
+                    src="../assets/clippers.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -512,7 +512,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/lakers.svg"
+                    src="../assets/lakers.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -520,7 +520,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/suns.svg"
+                    src="../assets/suns.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -528,7 +528,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/kings.svg"
+                    src="../assets/kings.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -541,7 +541,7 @@ function Teams() {
               <ul>
                 <li>
                   <img
-                    src="../images/mavs.svg"
+                    src="../assets/mavs.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -549,7 +549,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/rockets.svg"
+                    src="../assets/rockets.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -557,7 +557,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/grizzlies.svg"
+                    src="../assets/grizzlies.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -565,7 +565,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/pelicans.svg"
+                    src="../assets/pelicans.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />
@@ -575,7 +575,7 @@ function Teams() {
                 </li>
                 <li>
                   <img
-                    src="../images/spurs.svg"
+                    src="../assets/spurs.svg"
                     alt="Denver Nuggers logo"
                     className={classes.team_logo}
                   />

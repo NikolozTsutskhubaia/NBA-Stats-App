@@ -63,49 +63,49 @@ function Footer() {
           <div className={classes.footer_section_2_icons}>
             <a href="https://www.facebook.com/nba/">
               <img
-                src="../images/fb.svg"
+                src="../assets/fb.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
             </a>
             <a href="https://www.instagram.com/nba/">
               <img
-                src="../images/instagram.svg"
+                src="../assets/instagram.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
             </a>
             <a href="https://www.snapchat.com/add/nba">
               <img
-                src="../images/snapchat.svg"
+                src="../assets/snapchat.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
             </a>
             <a href="https://www.tiktok.com/@nba?lang=en">
               <img
-                src="../images/tiktok.svg"
+                src="../assets/tiktok.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
             </a>
             <a href="https://twitter.com/NBA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
               <img
-                src="../images/twitter.svg"
+                src="../assets/twitter.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
             </a>
             <a href="https://www.youtube.com/@NBA">
               <img
-                src="../images/youtube.svg"
+                src="../assets/youtube.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
             </a>
             <a href="https://www.twitch.tv/nba">
               <img
-                src="../images/twitch.svg"
+                src="../assets/twitch.svg"
                 alt="icon"
                 className={classes.social_media_icon}
               />
