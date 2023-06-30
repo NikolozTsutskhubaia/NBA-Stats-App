@@ -1,5 +1,6 @@
 import classes from "../modules/Navbar.module.css";
 import { Link } from "react-router-dom";
+import NBAlogoURL from "../assets/nba-seeklogo.com.svg";
 
 function Navbar() {
   return (
@@ -7,7 +8,7 @@ function Navbar() {
       <div className={classes.nav_bar}>
         <Link to={"/"}>
           <img
-            src="../assets/nba-seeklogo.com.svg"
+            src={NBAlogoURL}
             alt="Nba Logo"
             className={classes.nba_logo}
           />
