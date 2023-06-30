@@ -1,28 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  background-color: #f8fafc;
-}
-
-main {
-  font-family: sans-serif;
-  color: gray;
-  font-size: 1rem;
-}
 
 .table_container {
-  /* margin-top: 3.5rem;
-  height: 400px;
-  overflow: auto;
-  border-collapse: collapse;
-  text-align: left; */
-  display: flex;
-  justify-content: center;
-  padding-top: 8rem;
+  height: 92%;
+  position: relative;
+  overflow: auto ;
+  width: fit-content;
+  animation-name: transitionIn;
+  animation-duration: 1s;
 }
 
 table {
@@ -31,8 +15,26 @@ table {
   text-align: left;
 }
 
-thead {
+.table_headers{
+  display: flex;
+  justify-content: space-between;
   box-shadow: 0 5px 10px gray;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+  font-weight: 900;
+  animation-name: transitionIn;
+  animation-duration: 1s;
+}
+
+.tables_container{
+  margin-top: 100px;
+  width: fit-content;
+  height: 70vh;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
 }
 
 th {
@@ -41,10 +43,14 @@ th {
   letter-spacing: 0.1rem;
   font-size: 0.7rem;
   font-weight: 900;
+  animation-name: transitionIn;
+  animation-duration: 1s;
 }
 
 td {
   padding: 1rem 2rem;
+  animation-name: transitionIn;
+  animation-duration: 1s;
 }
 
 .page_buttons {
@@ -56,14 +62,30 @@ td {
 }
 
 .page_button {
-  background-color: #0268d6;
+  background-color: grey;
   color: #fff;
   width: 100px;
   height: 50px;
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 15px;
+  border-width: 1px;
 }
 
 .page_button:hover {
-  background-color: #358eee;
+  background-color: lightgrey;
+  color: black;
   transition: 0.2s all ease-out;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }

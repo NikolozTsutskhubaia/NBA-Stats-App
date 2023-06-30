@@ -41,17 +41,16 @@ function Players() {
       <Navbar />
       <main>
         <div className={classes.container}>
+          <div className={classes.tables_container}>
+            <div className={classes.table_headers}>
+              <span>NAME</span>
+              <span>AGE</span>
+              <span>GAMES</span>
+              <span>FG</span>
+              <span>FG%</span>
+            </div>
           <div className={classes.table_container}>
             <table>
-              <thead>
-                <tr>
-                  <th>NAME</th>
-                  <th>AGE</th>
-                  <th>GAMES</th>
-                  <th>FG</th>
-                  <th>FG%</th>
-                </tr>
-              </thead>
               <tbody>
                 {PlayersBySeasonData.map((player) => (
                   <tr key={player.id}>
@@ -66,13 +65,14 @@ function Players() {
                 ))}
               </tbody>
             </table>
+            </div>
           </div>
           <div className={classes.page_buttons}>
             <button onClick={prevPage} className={classes.page_button}>
-              previous
+              Previous
             </button>
             <button onClick={nextPage} className={classes.page_button}>
-              next
+              Next
             </button>
           </div>
         </div>

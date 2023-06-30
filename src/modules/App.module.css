@@ -5,11 +5,12 @@
 }
 
 body {
+
   background-color: #f8fafc;
 }
 
 main {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: gray;
   font-size: 1rem;
 }
@@ -36,32 +37,16 @@ main {
   margin-top: 500px;
 }
 
-/* #################################################################################*/
-/* NEWS SECTION */
 
 .news_section {
   display: flex;
+  justify-content: center;
   gap: 20px;
 }
 
-/* .nba_news_img {
-  position: fixed;
-  left: 1000px;
-  top: 95px;
-  width: 300px;
-  height: 150px;
-  border-radius: 5px;
-} */
-
-/* 
-.nba_news_img_2 {
-  position: fixed;
-  left: 1000px;
-  top: 270px;
-  width: 300px;
-  height: 150px;
-  border-radius: 5px;
-} */
+.news_h1{
+  text-align: center;
+}
 
 .feed {
   margin-top: 50px;

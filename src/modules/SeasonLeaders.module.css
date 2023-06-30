@@ -1,18 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  background-color: #f8fafc;
-}
-
-main {
-  font-family: sans-serif;
-  color: gray;
-  font-size: 1rem;
-}
 
 .container {
   width: 1200px;
@@ -35,12 +21,15 @@ main {
 .leaders_main {
   padding-top: 200px;
   padding-bottom: 250px;
+
 }
 
 .leaders_section {
   background-color: #fff;
   padding: 50px 200px;
   border-radius: 20px;
+
+
 }
 
 .year_selector {
@@ -62,6 +51,8 @@ main {
   align-items: center;
   gap: 40px;
   background-color: #fff;
+  animation-name: transitionIn;
+  animation-duration: 1s;
 }
 
 .leaders_h1 {
@@ -70,13 +61,18 @@ main {
 
 .leaders_h1 {
   font-size: 18px;
+
 }
 
 .leaders_hr {
   width: 300px;
+
 }
 
 .player_info {
   display: flex;
   justify-content: space-between;
+  animation-name: transitionIn;
+  animation-duration: 1s;
 }
+
