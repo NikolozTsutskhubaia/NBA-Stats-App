@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar.jsx";
-import classes from "../modules/App.module.css";
+import classes from "../modules/Teams.module.css";
+import Footer from "../components/Footer";
 
 function Teams() {
   return (
@@ -8,6 +9,7 @@ function Teams() {
       <main className={classes.container}>
         <div className={classes.teams_section}>
           <h1>ALL TEAMS</h1>
+          <hr />
           <div className={classes.teams_one}>
             <div className={classes.teams_div}>
               <span>ATLANTIC</span>
@@ -296,6 +298,7 @@ function Teams() {
           </div>
         </div>
       </main>
+      <Footer />
     </>
   );
 }

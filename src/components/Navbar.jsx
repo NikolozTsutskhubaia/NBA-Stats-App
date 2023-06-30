@@ -1,4 +1,4 @@
-import classes from "../modules/App.module.css";
+import classes from "../modules/Navbar.module.css";
 import { Link } from "react-router-dom";
 
 function Navbar() {

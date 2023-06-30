@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f3f3f3;
+  background-color: #f8fafc;
 }
 
 main {
@@ -17,6 +17,19 @@ main {
 .container {
   width: 1200px;
   margin: 0 auto;
+  animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }
 
 .mt_500 {
@@ -24,60 +37,11 @@ main {
 }
 
 /* #################################################################################*/
-/* NAVBAR */
-
-.nav_bar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #6d6a6a;
-  height: 60px;
-  z-index: 9999;
-}
-
-.nba_logo {
-  width: 50px;
-  height: 30px;
-  margin-right: 20px;
-}
-
-.nav_items {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-  color: #fff;
-  font-weight: 400;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.nav_items a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav_items li {
-  cursor: pointer;
-}
-
-.nav_items li:hover {
-  color: #bcb5b5;
-  transition: 0.2s all ease-in;
-}
-
-/* #################################################################################*/
 /* NEWS SECTION */
 
-body {
-  background-color: #f8fafc;
-}
-
-.main_slide {
-  width: 800px;
-  padding-top: 100px;
-  text-align: center;
+.news_section {
+  display: flex;
+  gap: 20px;
 }
 
 /* .nba_news_img {
@@ -100,7 +64,12 @@ body {
 } */
 
 .feed {
-  padding-top: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  width: 840px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .news {
@@ -119,203 +88,4 @@ body {
   text-decoration: none;
   color: #000;
   font-weight: 700;
-}
-
-/* #################################################################################3 */
-/* PLAYERS SECTION */
-
-.table_container {
-  /* margin-top: 3.5rem;
-  height: 400px;
-  overflow: auto;
-  border-collapse: collapse;
-  text-align: left; */
-  display: flex;
-  justify-content: center;
-  padding-top: 8rem;
-}
-
-table {
-  border-collapse: collapse;
-  box-shadow: 0 5px 10px gray;
-  text-align: left;
-}
-
-thead {
-  box-shadow: 0 5px 10px gray;
-}
-
-th {
-  padding: 1rem 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-size: 0.7rem;
-  font-weight: 900;
-}
-
-td {
-  padding: 1rem 2rem;
-}
-
-.page_buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
-}
-
-.page_button {
-  background-color: #0268d6;
-  color: #fff;
-  width: 100px;
-  height: 50px;
-  cursor: pointer;
-}
-
-.page_button:hover {
-  background-color: #358eee;
-  transition: 0.2s all ease-out;
-}
-
-/* #################################################################################3 */
-/* LEADERS SECTION */
-
-.leaders_main {
-  padding-top: 150px;
-}
-
-.leaders_section {
-  background-color: #fff;
-  padding: 50px 200px;
-  border-radius: 20px;
-}
-
-.year_selector {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-
-.select_button {
-  width: 100px;
-  height: 25px;
-  border-radius: 15px;
-  cursor: pointer;
-}
-
-.player_stats {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  background-color: #fff;
-}
-
-.leaders_h1 {
-  color: #0268d6;
-}
-
-.leaders_h1 {
-  font-size: 18px;
-}
-
-.leaders_hr {
-  width: 300px;
-}
-
-.player_info {
-  display: flex;
-  justify-content: space-between;
-}
-/* #################################################################################3 */
-/* TEAM SECTIONS */
-
-.teams_section {
-  width: 1000px;
-  height: 100%;
-  margin: 0 auto;
-  margin-top: 150px;
-  padding: 100px 0 100px 100px;
-  margin-bottom: 200px;
-  background-color: #fff;
-  border-radius: px;
-}
-
-.teams_one {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  margin-bottom: 50px;
-}
-
-.teams_two {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-}
-
-.teams ul {
-  list-style: none;
-}
-
-.teams_div span {
-  font-weight: bold;
-}
-
-.teams_div li {
-  padding-bottom: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.teams_div a {
-  text-decoration: none;
-  color: #6d6a6a;
-}
-
-.team_logo {
-  width: 50px;
-}
-
-/* #################################################################################3 */
-/* FOOTER SECTION */
-
-footer {
-  background-color: #6d6a6a;
-  height: 400px;
-}
-
-.footer_section {
-  display: flex;
-  justify-content: center;
-  gap: 200px;
-  padding-top: 50px;
-  color: #fff;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.footer_section b {
-  font-size: 14px;
-}
-
-.footer_section li {
-  list-style: none;
-  margin-top: 20px;
-}
-
-footer hr {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.footer_section_2 {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 50px;
-  color: #fff;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;}
-
-.footer_section_2 li {
-  list-style: none;
 }

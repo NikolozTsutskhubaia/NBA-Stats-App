@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8fafc;
+}
+
+main {
+  font-family: sans-serif;
+  color: gray;
+  font-size: 1rem;
+}
+
+.main_slide {
+  width: 600px;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align: center;
+}

@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { PlayersBySeason } from "../services/PlayersBySeason.service.jsx";
 import Navbar from "../components/Navbar.jsx";
-import classes from "../modules/App.module.css";
+import classes from "../modules/Players.module.css";
+import Footer from "../components/Footer";
 
 function Players() {
   const [PlayersBySeasonData, setPlayersBySeasonData] = useState([]);
@@ -76,7 +77,7 @@ function Players() {
           </div>
         </div>
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }

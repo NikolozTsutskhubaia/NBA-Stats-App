@@ -1,5 +1,7 @@
-import classes from "../modules/App.module.css";
+import classes from "../modules/SeasonLeaders.module.css";
 import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/Footer";
+
 import {
   TopScorers,
   TopAssists,
@@ -88,6 +90,7 @@ const SeasonLeaders = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </>
   );
 };

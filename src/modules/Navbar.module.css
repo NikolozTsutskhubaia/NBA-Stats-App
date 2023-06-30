@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8fafc;
+}
+
+main {
+  font-family: sans-serif;
+  color: gray;
+  font-size: 1rem;
+}
+
+.nav_bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d6a6a;
+  height: 60px;
+  z-index: 9999;
+}
+
+.nba_logo {
+  width: 50px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.nav_items {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav_items a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav_items li {
+  cursor: pointer;
+}
+
+.nav_items li:hover {
+  color: #bcb5b5;
+  transition: 0.2s all ease-in;
+}
