@@ -1,7 +1,7 @@
 # NBA-Stats-App - პროექტზე მუშაობდნენ ნიკოლოზ ცუცხუბაია და ივანე ნოზაძე.
 ##
 
- Link to app - nba-stats-nv.netlify.app
+ ## Link to app - nba-stats-nv.netlify.app
  
  ![image](https://github.com/NikolozTsutskhubaia/NBA-Stats-App/assets/115501603/2d6f535a-f32e-401d-8a6a-2c586f8c6430)
 
