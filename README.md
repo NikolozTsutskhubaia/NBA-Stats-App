@@ -1,4 +1,5 @@
 # NBA-Stats-App - პროექტზე მუშაობდნენ ნიკოლოზ ცუცხუბაია და ივანე ნოზაძე.
+
 nba-stats-nv.netlify.app
 
 # Players and Statistics
