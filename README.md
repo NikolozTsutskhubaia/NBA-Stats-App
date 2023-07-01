@@ -1,12 +1,12 @@
 # NBA-Stats-App - პროექტზე მუშაობდნენ ნიკოლოზ ცუცხუბაია და ივანე ნოზაძე.
+ ![image](https://github.com/NikolozTsutskhubaia/NBA-Stats-App/assets/115501603/2d6f535a-f32e-401d-8a6a-2c586f8c6430)
+
 ##
 
 # Description
 This project is a fully responsive website built with React about NBA players, teams and news. It is designed to be easily accessible and viewable across different devices and screen sizes. The website utilizes responsive design principles to provide a seamless user experience on desktops, tablets, and mobile devices.
 
-# Link to app - nba-stats-nv.netlify.app
- 
- ![image](https://github.com/NikolozTsutskhubaia/NBA-Stats-App/assets/115501603/2d6f535a-f32e-401d-8a6a-2c586f8c6430)
+Link to app - nba-stats-nv.netlify.app
 
 # Players and Statistics
 
